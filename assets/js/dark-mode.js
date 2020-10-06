@@ -1,6 +1,7 @@
 const toggleContainer = document.querySelector('#toggle-container');
-const inputCheckDesktop =
-    document.querySelectorAll('input[type="checkbox"]')[1];
+const inputCheckDesktop = document.querySelectorAll(
+  'input[type="checkbox"]'
+)[1];
 const neverMissUpdate = document.querySelector('.neverMissUpdate');
 const content = document.querySelector('.hero_content');
 const inputCheckMobile = document.querySelectorAll('input[type="checkbox"]')[0];
