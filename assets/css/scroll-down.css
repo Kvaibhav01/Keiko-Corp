@@ -34,7 +34,7 @@
     animation: scroll_down_btn-animation 2s infinite;
     box-sizing: border-box;
   }
-  
+
   @keyframes scroll_down_btn-animation {
     0% {
       transform: translate(0, 0);
@@ -51,7 +51,7 @@
       opacity: 0;
     }
   }
-  
+
   @-webkit-keyframes scroll_down_btn-animation {
     0% {
       -webkit-transform: translate(0, 0);
@@ -70,4 +70,3 @@
       opacity: 0;
     }
   }
-  

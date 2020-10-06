@@ -1,13 +1,13 @@
 body {
-    background: #FF416C;  
-    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  
-    background: linear-gradient(to right, #FF4B2B, #FF416C); 
+    background: #FF416C;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
     font-family: 'Montserrat', sans-serif;
 }
 
 .testimonials {
     background: #fff;
-    width: 450px; 
+    width: 450px;
     height: 250px;
     margin: 70px auto;
     white-space: nowrap;
@@ -19,13 +19,13 @@ body {
 .testimonial-reviews {
     display: table-row;
     white-space: nowrap;
-    padding-left: 100%; 
-    animation: slider 80s linear infinite; 
+    padding-left: 100%;
+    animation: slider 80s linear infinite;
 }
 
 .review {
-    width: 450px; 
-    padding-left: 450px; 
+    width: 450px;
+    padding-left: 450px;
     display: table-cell;
 }
 

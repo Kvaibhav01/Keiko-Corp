@@ -63,7 +63,7 @@ body {
   --br: 0.25rem;
   --btnHeight: 40px;
   --btnPadding: 12px 16px;
-  
+
   /* transition */
   --transition: 0.2s all ease-in;
 
@@ -84,8 +84,8 @@ body {
   /* @media (min-width: 1280px) { ... } */
 }
 
-[data-theme = 'dark'] {  
-  --lightBlue: #c54b49;  
+[data-theme = 'dark'] {
+  --lightBlue: #c54b49;
   --text: #fff;
   --mainBackground: #343A40;
   --heroText: #fff;
