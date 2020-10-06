@@ -1,9 +1,10 @@
 const toggleContainer = document.querySelector('#toggle-container');
-const inputCheckDesktop = document.querySelectorAll('input[type="checkbox"]')[1];
+const inputCheckDesktop =
+    document.querySelectorAll('input[type="checkbox"]')[1];
 const neverMissUpdate = document.querySelector('.neverMissUpdate');
 const content = document.querySelector('.hero_content');
-const inputCheckMobile=document.querySelectorAll('input[type="checkbox"]')[0];
-inputCheckMobile.addEventListener('change',switchTheme);
+const inputCheckMobile = document.querySelectorAll('input[type="checkbox"]')[0];
+inputCheckMobile.addEventListener('change', switchTheme);
 // const contentPara = document.querySelector('.hero_content > p');
 // const contenttitle = document.querySelector('#hero-heading');
 // const toggleBar = document.querySelector('#toggle-bar');
@@ -14,7 +15,8 @@ inputCheckMobile.addEventListener('change',switchTheme);
 // const footerLink = document.querySelectorAll('.sub-footer-link > li > a');
 // const footerIcons = document.querySelectorAll('.icon');
 // const teamMemberName = document.querySelectorAll('.team-member h3');
-// const footerrow = document.querySelectorAll('.footer-column>h2:nth-child(1)');
+// const footerrow =
+// document.querySelectorAll('.footer-column>h2:nth-child(1)');
 
 function switchTheme(event) {
   console.log(event.target.checked);
@@ -27,7 +29,7 @@ function switchTheme(event) {
   }
 }
 
-//event listener to toggle betwen light and dark modes
+// event listener to toggle betwen light and dark modes
 inputCheckDesktop.addEventListener('change', switchTheme);
 
 // check local storage for theme
@@ -37,7 +39,7 @@ if (currentTheme) {
   document.documentElement.setAttribute('data-theme', currentTheme);
   if (currentTheme === 'dark') {
     inputCheckMobile.checked = true;
-    inputCheckDesktop.checked=true;
+    inputCheckDesktop.checked = true;
   }
 }
 
@@ -56,12 +58,12 @@ if (currentTheme) {
 //   updateHeading.style.color = '#fff';
 //   updateHeading2.style.color = '#fff';
 //   updateHeading5.style.color = '#fff';
-//   for (i = 0; i < footerLink.length; i++) footerLink[i].style.color = 'white';
-//   footerIcons.forEach((e) => (e.style.color = '#000'));
+//   for (i = 0; i < footerLink.length; i++) footerLink[i].style.color =
+//   'white'; footerIcons.forEach((e) => (e.style.color = '#000'));
 //   this.changeTeamMemberColor('#fff');
 // }
 
-//light mode
+// light mode
 // function changeToLightMode() {
 //   contenttitle.style.color = '#000';
 //   body.style.background = '#fff';
